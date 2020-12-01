@@ -1,0 +1,20 @@
+/************************************
+          HERO CSS FILE
+ ************************************/
+
+#hero-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.hero-background {
+  background-image: url("../images/plate-of-coffee-leave.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 88vh;
+}
+
+.hero-content {
+    padding: 15% 10%;
+}

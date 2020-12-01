@@ -1,0 +1,77 @@
+/************************************
+          MAIN CSS FILE
+ ************************************/
+
+@import 'header.css'; /* links to header section css */
+@import 'hero.css'; /* links to hero section css */
+@import 'grid-blog.css'; /* links to grid section css */
+@import 'cta.css';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.0;
+ }
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 35px;
+}
+
+h4{
+  font-size: 25px;
+}
+
+h5{
+  font-size: 22px;
+}
+
+h6{
+  font-size: 18px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+p {
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 18px;
+   font-weight: 300;
+   letter-spacing: 0;
+   line-height: 1.55;
+ }
+
+body {
+  margin: 0;
+ }
+
+.btn {
+  text-transform: uppercase;
+  border-radius: 0;
+  color: #fff;
+  border: 0;
+  padding: 15px 30px;
+  font-weight: 700;
+ }
+
+.tan-btn {
+  background: #C4AA89;
+}
+
+.black-btn {
+  background: #000;
+}

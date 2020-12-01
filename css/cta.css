@@ -1,0 +1,29 @@
+
+
+#cta-wrapper {
+  background-image: url("../images/Coffee-Lobby.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+
+.cta-container {
+  background: black;
+  background: rgba(0,0,0,0.88);
+  width: 60%;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  padding: 60px;
+}
+
+.mail-label {
+  height: 41px;
+  width: 50%;
+}
+
+.subscribe-form {
+  margin-top: 45px;
+}
