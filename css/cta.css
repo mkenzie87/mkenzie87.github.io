@@ -6,17 +6,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 80px;
+  padding: 50px 10px;
 }
 
 .cta-container {
   background: black;
   background: rgba(0,0,0,0.88);
-  width: 60%;
+  width: calc(80% - 20px);
   margin: auto;
   color: #fff;
   text-align: center;
-  padding: 60px;
+  padding: 30px;
 }
 
 .mail-label {
@@ -26,4 +26,23 @@
 
 .subscribe-form {
   margin-top: 45px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+
+  .cta-container {
+    width: 80%;
+    padding: 30px;
+  }
+
+}
+
+
+@media screen and (min-width: 1201px) {
+
+  .cta-container {
+    width: 60%;
+    padding: 60px;
+  }
+
 }
