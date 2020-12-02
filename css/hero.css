@@ -35,6 +35,10 @@
 	margin: 50px auto;
 }
 
+.hero-content p {
+	margin-bottom: 50px;
+}
+
 @media screen and (max-width: 1024px) and (min-width: 769px) {
 	.hero-desc {
 		display: block;
